@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #6cdf7f;
+            margin: 0;
+            padding: 20px;
+        }
+        .pokedex {
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .pokemon {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+            transition: transform 0.3s ease-in-out;
+        }
+        .pokemon:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        .pokemon img {
+            max-width: 100px;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #e64949;
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+        p {
+            margin: 5px 0;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="pokedex">
+        <div class="pokemon">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="Bulbasaur">
+            <div>
+                <h2>Bulbasaur</h2>
+                <p>#001</p>
+                <p>Grass / Poison</p>
+                <p>Bulbasaur é um Pokémon do tipo Planta / Veneno introduzido na Geração 1 .
+
+                    Bulbasaur é um pequeno Pokémon anfíbio, principalmente turquesa, com olhos vermelhos e um bulbo verde nas costas. Ele é baseado em um sapo/rã, com o bulbo lembrando um bulbo de planta que cresce em uma flor conforme evolui.
+                    
+                    Bulbasaur é notável por ser o primeiro Pokémon no National Pokédex. É uma das três escolhas para um Pokémon inicial nos jogos originais do Game Boy, Pokémon Red & Blue (Red & Green no Japão), junto com Charmander e Squirtle .</p>
+            </div>
+        </div>
+        <div class="pokemon">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png" alt="Charmander">
+            <div>
+                <h2><a href="charmander.html">Charmander</a></h2>
+                <p>#004</p>
+                <p>Fire</p>
+            </div>
+        </div>
+        <div class="pokemon">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png" alt="Squirtle">
+            <div>
+                <h2><a href="squirtle.html">Squirtle</a></h2>
+                <p>#007</p>
+                <p>Water</p>
+            </div>
+        </div>
+        <!-- Adicione mais Pokémon conforme necessário -->
+    </div>
+</body>
+</html>

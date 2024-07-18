@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #69d3f3;
+            margin: 0;
+            padding: 20px;
+        }
+        .pokedex {
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .pokemon {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+            transition: transform 0.3s ease-in-out;
+        }
+        .pokemon:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        .pokemon img {
+            max-width: 100px;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #e64949;
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+        p {
+            margin: 5px 0;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="pokedex">
+        <div class="pokemon">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="Bulbasaur">
+            <div>
+                <h2><a href="bulbasaur.html">Bulbasaur</a></h2>
+                <p>#001</p>
+                <p>Grass / Poison</p>
+            </div>
+        </div>
+        <div class="pokemon">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png" alt="Charmander">
+            <div>
+                <h2><a href="charmander.html">Charmander</a></h2>
+                <p>#004</p>
+                <p>Fire</p>
+            </div>
+        </div>
+        <div class="pokemon">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png" alt="Squirtle">
+            <div>
+                <h2>Squirtle</h2>
+                <p>#007</p>
+                <p>Water</p>
+                <p>Squirtle é um Pokémon do tipo Água introduzido na Geração 1 .
+
+                    Squirtle é um Pokémon reptiliano bípede. Ele tem um corpo azul com olhos roxos, uma barriga marrom-clara e uma casca marrom-avermelhada resistente nas costas. Ele tem uma cauda longa que se enrola em uma espiral.
+                    
+                    Squirtle é baseado principalmente em uma tartaruga, inspirando-se em variedades terrestres e marinhas. A cauda encaracolada lembra uma onda quebrando.
+                    
+                    Squirtle é notável por ser uma das três opções para Pokémon inicial nos jogos originais de Game Boy, Pokémon Red & Blue (Red & Green no Japão), junto com Bulbasaur e Charmander .</p>
+            </div>
+        </div>
+        <!-- Adicione mais Pokémon conforme necessário -->
+    </div>
+</body>
+</html>
